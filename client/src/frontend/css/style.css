@@ -1,0 +1,17 @@
+.react-table{
+    margin-top: 1.25rem !important;
+    border-radius: 0.625rem;
+    box-shadow: 0 5px 20px rgb(173 181 189 / 20%);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,.12);
+    border-bottom-style: solid;
+}
+.react-table header{
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0,0,0,.12);
+    border-bottom-style: solid;
+}
+.rdt_TableBody svg{
+    height: 20px;
+    width: 20px;
+}
