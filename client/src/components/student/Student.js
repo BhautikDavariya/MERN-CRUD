@@ -117,14 +117,14 @@ const subHeaderComponentMemo = React.useMemo(() => {
 
   return (
       <>
-          <Col xxl={12} className='d-flex flex-wrap align-items-center justify-content-between col-12 col-md-8 col-lg-8'>
-            <div className='d-flex align-items-center justify-content-center'>
-              <span>MERN</span><span>
+      <Col xxl={12} className='d-flex flex-wrap align-items-center justify-content-between col-12 col-md-8 col-lg-8'>
+        <div className='d-flex align-items-center justify-content-center'>
+          <span>MERN</span><span>
             <input type='search' className='ms-3 form-control border-none' onChange={e => setFilterText(e.target.value)} onClear={handleClear} filterText={filterText} />
-            </span>
-            </div>
-              <Header />
-          </Col>
+          </span>
+        </div>
+        <Header />
+      </Col>
       </>
   );
 }, []);
