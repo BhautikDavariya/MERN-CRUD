@@ -103,7 +103,7 @@ function Student() {
     },
 ];
 
-const filteredItems = filterText ? itemsValue.filter(
+const filteredItems = filterText ? itemsValue && itemsValue?.filter(
   item => item.firstName && item.firstName.toLowerCase().includes(filterText.toLowerCase()),
 ) : itemsValue;
 
